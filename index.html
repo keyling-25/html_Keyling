@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Personal - Keyling</title>
+    <style>
+        html {
+            background-color: #fbf3f6;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333333;
+            max-width: 760px;
+            margin: 30px auto;
+            padding: 25px 35px;
+            background: #ffffff;
+            border: 1px solid #f2dce4;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #b55d7a;
+            border-bottom: 2px solid #f2dce4;
+            padding-bottom: 8px;
+        }
+
+        h2 {
+            color: #a3526d;
+            margin-top: 25px;
+        }
+
+        h3 {
+            color: #666666;
+            font-size: 1rem;
+            margin: 8px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .item-imagen {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            background-color: #fdf8fa;
+            border: 1px solid #eed5df;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .item-imagen img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .item-imagen img.pony {
+            object-fit: contain;
+            background-color: #ffffff;
+        }
+
+        a {
+            color: #b55d7a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Keyling de los Ángeles Rocha Pérez</h1>
+
+    <h2>Presentación personal</h2>
+    <p>
+        Hola, me llamo Keyling de los Ángeles Rocha Pérez y soy estudiante de la asignatura Diseño de sistemas en Internet. 
+        Me gustan mucho los gatos, escuchar a la banda The Strokes, ver My Little Pony y buscar ideas en Pinterest. 
+        Además, mi anime favorito es Ranma 1/2.
+    </p>
+
+    <h2>Mis intereses</h2>
+    <ul>
+        <li>Los gatos</li>
+        <li>Anime favorito: Ranma 1/2</li>
+        <li>La banda The Strokes</li>
+        <li>My Little Pony</li>
+        <li>Buscar inspiración en Pinterest</li>
+    </ul>
+
+    <h2>Galería de imágenes</h2>
+    <div class="galeria">
+        <div class="item-imagen">
+            <img src="img/mi_gato.jpg" alt="Foto de mi gatita descansando">
+            <h3>Mi gatita</h3>
+        </div>
+
+        <div class="item-imagen">
+            <img class="pony" src="img/fluttershy.png" alt="Fluttershy de My Little Pony">
+            <h3>My Little Pony</h3>
+        </div>
+
+        <div class="item-imagen">
+            <img src="img/gatito_pinterest.jpg" alt="Imagen estilo Pinterest">
+            <h3>Estilo Pinterest</h3>
+        </div>
+    </div>
+
+    <h2>Enlaces a mis sitios favoritos</h2>
+    <ul>
+        <li><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
+        <li><a href="https://www.youtube.com/@thestrokes" target="_blank">The Strokes en YouTube</a></li>
+        <li><a href="https://mylittlepony.hasbro.com/" target="_blank">Página oficial de My Little Pony</a></li>
+    </ul>
+
+</body>
+</html>
